@@ -1,0 +1,49 @@
+
+/* 
+    . - Sirve para definir clases
+    # - Sirve para definir ID
+*/
+
+/*
+body{
+    font-family: Impact;
+    background-color: black;
+}
+
+h1{
+    color: blue;
+}
+
+.nombreahiram{
+    color: purple;
+}
+
+#descripcion{
+    color: red;
+}
+
+p{
+    color: white;
+}
+*/
+
+p{
+    color:red;
+}
+
+.parrafo-uno{
+    border: 1px red solid;
+}
+
+.parrafo-uno p{
+    color:blue;
+}
+
+#parrafo-dos .parrafo-uno p{
+    color:purple;
+}
+
+img{
+    height: 250px;
+    width: 600px;
+}
