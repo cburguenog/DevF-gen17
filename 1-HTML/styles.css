@@ -4,16 +4,17 @@
     # - Sirve para definir ID
 */
 
-/*
+
 body{
-    font-family: Impact;
-    background-color: black;
+    font-family: 'Tapestry', sans-serif;    background-color: rgb(250, 239, 210);
 }
 
 h1{
     color: blue;
+    text-transform: uppercase;
+    text-align: center;
 }
-
+/*
 .nombreahiram{
     color: purple;
 }
@@ -28,9 +29,12 @@ p{
 */
 
 p{
-    color:red;
+    color: red;
 }
-
+/*En cascada*/
+p{
+    color: magenta;
+}
 .parrafo-uno{
     border: 1px red solid;
 }
@@ -46,4 +50,68 @@ p{
 img{
     height: 250px;
     width: 600px;
+}
+
+/*PSEUDO-CLASES*/
+
+#buton1{
+    background-color: violet;
+    font-size: 30px;
+    border: 5px purple solid;
+}
+#buton1:hover{
+    background-color: aqua;
+}
+#botones:hover{
+    /*background-color: yellow;*/
+}
+#descripcion:hover{
+    color: yellowgreen;
+    background-color: #4747bb;
+}
+#link{
+    text-decoration: none;
+}
+#link:visited{
+    color: rgb(255, 6, 47);
+}
+#link:hover{
+    color: darkorange;
+}
+#link:active{
+    color: darkgreen;
+}
+.lista1 li:first-child{
+    color: blue;
+}
+.lista1 li:last-child{
+    color: rgb(92, 49, 92) 
+}
+.lista1 li:nth-child(2){
+    color: aqua;
+}
+.lista1 li:nth-child(odd){
+    background-color: rgb(140, 140, 140);
+}
+.lista1 li:nth-child(even){
+    background-color: rgb(242, 246, 242);
+}
+#h2Capital::first-letter{
+    color: red;
+    font-size: 40px
+}
+#h2Capital::before{
+    content: "@";
+}
+#h2Capital::after{
+    content: "#";
+}
+#h3{
+    color: green;
+}
+h3{
+    color: blue;
+}
+.titulos{
+    color: rebeccapurple;
 }
