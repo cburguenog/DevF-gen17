@@ -1,0 +1,65 @@
+*{
+  margin: 0; 
+  box-sizing: border-box 
+}
+body{
+    background-image: url(https://www.amaviajar.com.mx/wp-content/uploads/2020/04/fixedw_large_4x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px 1500px;
+    background-attachment: fixed;
+}
+#div1{
+    background-color: rgb(230, 97, 245);
+    height: 100px;
+    width: 100px;
+    border: purple 3px solid;
+    padding: 5px;
+    margin: 15px auto;
+    text-align: center;
+}
+h1{
+    color: rgb(86, 1, 86);
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+h2{
+    text-align: center;
+}
+#img-atardecer{
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    width: 150px;
+    background-color: hotpink;
+    padding: 10px;
+    text-align: center;
+    margin: 5px 20px;
+}
+.block{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+.inline{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    background-color: rgb(198, 192, 12);
+    display: inline;
+}
+.inline-block{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    background-color: royalblue;
+    display: inline-block;
+}
