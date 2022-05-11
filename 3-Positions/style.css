@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 200px;
+    height: 200px;
+}
+#static{
+    background-color: red;
+    position: static;
+    top:10px
+}
+#relative{
+    background-color: yellow;
+    position: relative;
+    top:50px;
+    left:100px;
+}
+#absolute{
+    background-color: violet;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+#papa-relative{
+    background-color: blue;
+    position:relative;
+    
+}
+#hijo-absolute{
+    background-color: aliceblue;
+    width: 100px;
+    height: 50px;
+    position:absolute;
+    top: 15px;
+    left: 30px;
+}
+
