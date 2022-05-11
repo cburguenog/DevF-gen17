@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 300px;
+    height: 400px;
+    border: 2px salmon solid;
+}
+#div1{
+    background-color: plum;
+    float: left;
+}
+#div2{
+    background-color: rgb(183, 243, 235);
+    float: right;
+    clear:both
+}
+p{
+    width: 400px;
+}
+#parrafo1{
+    float: right;
+}
+#parrafo2{
+    float:left
+}
