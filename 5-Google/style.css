@@ -42,3 +42,49 @@ ul li button{
     border: none;
     border-radius: 4px;
 }
+.main-section{
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+    position: relative;
+    top: 230px;
+}
+.main-section img{
+    width: 270px;
+}
+#input-busqueda{
+    width: 500px;
+    padding: 15px 15px;
+    border: none;
+}
+#barra-busqueda{
+    border: 1px solid #e2e2e2;
+    width: 600px;
+    margin: auto;
+    border-radius: 50px;
+    margin-top: 25px;
+}
+#barra-busqueda:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+#barra-busqueda span{
+    vertical-align: middle;
+}
+#input-busqueda:focus{
+    outline: none;
+}
+#botones{
+    margin-top: 30px;
+}
+#botones button{
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    margin-right: 8px;
+}
+#botones button:hover{
+    border: 1px solid #e2e2e2;
+}
