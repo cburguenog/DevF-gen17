@@ -2,6 +2,37 @@
     box-sizing: border-box;
     margin: 0;
 }
+header{
+    height: 80px;
+    background-color: blueviolet;
+}
+.lista-menu{
+    list-style: none;
+}
+.lista-menu li{
+    display: inline-block;
+    color: white;
+    margin: 0px 15px;
+    margin-top: 30px;
+}
+.lista-menu li:hover{
+    background-color: deeppink;
+}
+.lista-menu li a{
+    color: white;
+    text-decoration: none;
+}
+.lista-menu li span{
+    vertical-align: middle;
+}
+
+
+#icono-menu{
+    width: 50px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
 body{
     background-color: #FFDAFF;
     font-family: 'Prompt', sans-serif;
