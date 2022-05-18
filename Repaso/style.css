@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #FFDAFF;
+    font-family: 'Prompt', sans-serif;
+
+}
+h1,h2,h3{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    color: darkmagenta;
+}
+h1:hover{
+    color: darkslateblue;
+}
+#imagen-principal{
+    width: 700px;
+    margin: auto;
+    display: block;
+}
+h3{
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 20px;
+}
+h3:hover{
+    background-color: deeppink;
+}
+h2{
+    font-size: 40px;
+    margin: 20px;
+}
+#primer-blog{
+    background-color: rgb(230, 144, 230);
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+#imagen-monterrey{
+    width: 400px;
+}
