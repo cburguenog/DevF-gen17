@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 0px 30px;
+}
+nav{
+    width: 500px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+#header-logo{
+    width: 200px;
+    height: 100px;
+}
+.albumes{
+    position: relative;
+    top: 30px;    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tarjeta-album{
+    background-color: deepskyblue;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tarjeta-album img{
+    width: 200px;
+}
