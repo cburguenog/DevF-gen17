@@ -1,7 +1,14 @@
+/*Asigno los estilos a TODOS los elementos para que no tengan nada de margen y usen border.box*/
 *{
     box-sizing: border-box;
     margin: 0;
 }
+/*Estilos del header
+- El header es el padre de dos hijos (imagen y un nav)
+- El header va a tener la propiedad flex para que los hijos se acomoden uno alado de otro
+- Con justify-content le damos espacio entre los elementos, esto hace que uno se ponga a la izquierda y otro a la derecha.
+- Con align-items centramos los elementos de manera vertical en el header
+*/
 header{
     background-color: rgb(211, 211, 211);
     display: flex;
@@ -13,14 +20,24 @@ header{
 nav{
     width: 500px;
 }
+/* La lista es padre de 4 "li" y como queremos que se acomoden uno alado de otro le ponemos que tenga la propiedad display:flex
+Para que los elementos se separen entre ellos ponemos 
+justify-content: space-around*/
 nav ul{
     display: flex;
     justify-content: space-around;
 }
+/*Logo del header*/
 #header-logo{
     width: 200px;
     height: 100px;
 }
+/*Sección donde mostramos los álbumes
+Para que cada tarjeta de álbum se ponga una alado de otra hacemos a esta sección flex
+Para que los elementos se separen entre ellos ponemos 
+justify-content: space-around
+Con "flex-wrap" --> Hacemos que las tarjetas no se salgan del espacio que tenemos, esto nos ayuda a hacer un diseño responsivo. 
+*/
 .albumes{
     position: relative;
     top: 30px;    
@@ -28,6 +45,9 @@ nav ul{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+/*Tarjeta del album: contiene un título, una frase y una imagen
+También es flex para que sus elementos se acomoden y los podamos centrar
+Con flex-direction: column ponemos a los elementos uno abajo de otro*/
 .tarjeta-album{
     background-color: deepskyblue;
     width: 400px;
